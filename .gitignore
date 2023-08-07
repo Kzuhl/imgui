@@ -1,4 +1,4 @@
-## OSX artifacts
+﻿## OSX artifacts
 .DS_Store
 
 ## Dear ImGui artifacts
@@ -77,3 +77,6 @@ examples/example_sdl3_opengl3/example_sdl3_opengl3
 examples/example_sdl3_sdlgpu3/example_sdl3_sdlgpu3
 examples/example_sdl3_sdlrenderer3/example_sdl3_sdlrenderer3
 examples/example_sdl3_vulkan/example_sdl3_vulkan
+
+/bin/**
+/bin-int/**
