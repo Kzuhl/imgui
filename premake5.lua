@@ -20,7 +20,13 @@ project "ImGui"
 		"imgui_draw.cpp",
 		"imgui_tables.cpp",
 		"imgui_widgets.cpp",		
-		"imgui_demo.cpp"
+		"imgui_demo.cpp",
+		"misc/cpp/imgui_stdlib.h",
+		"misc/cpp/imgui_stdlib.cpp"
+	}
+
+	includedirs {
+		"."
 	}
 
 	filter "system:windows"
